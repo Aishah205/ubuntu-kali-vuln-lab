@@ -32,7 +32,7 @@ level rather than just the attack outcome.
 ## Key takeaway
 
 SSH's encryption protects credential confidentiality even under active
-attack — but the *pattern* of repeated connection attempts remains
+attack, but the *pattern* of repeated connection attempts remains
 visible and detectable at the network level, which is what tools like
 fail2ban (already deployed in the main lab) use to identify and block
 brute-force attempts.
