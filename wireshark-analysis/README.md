@@ -14,7 +14,7 @@ level rather than just the attack outcome.
 - `captures/multi-attempt-bruteforce.pcapng` — captured with
   PasswordAuthentication temporarily re-enabled to demonstrate the
   full brute-force pattern. Shows 6 separate TCP streams from the same
-  source IP to port 22, each ~4-5 seconds apart — the classic
+  source IP to port 22, each ~4-5 seconds apart, the classic
   brute-force signature of repeated rapid connection attempts.
 
 ## Analysis
